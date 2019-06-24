@@ -1,0 +1,14 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#whole-site-content-wrapper {
+	height: 100vh;
+	width: 100vw;
+}
+
+#first-division {
+	background-image: url("");
+}
