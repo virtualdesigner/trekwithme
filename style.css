@@ -121,11 +121,15 @@ footer {
 	color: white;
 	min-height: 40vh;
 	width: 100vw;
-	display: flex;
-	justify-content: space-evenly;
+
 	/* align-items: center; */
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+#footer-content {
+	display: flex;
+	justify-content: space-evenly;
 	flex-direction: row;
 }
 
@@ -137,6 +141,20 @@ footer {
 
 .social-link:hover {
 	color: #1f6521;
+}
+
+.logo {
+	border-radius: 50%;
+	height: 150px;
+	/* width: 400px; */
+}
+
+.logo-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 1250px) {
@@ -168,7 +186,7 @@ footer {
 		padding: 50px;
 	}
 
-	footer {
+	#footer-content {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
