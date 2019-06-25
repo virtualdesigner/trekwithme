@@ -10,6 +10,41 @@ body {
 	width: 100vw;
 }
 
+nav {
+	position: fixed;
+	top: 0;
+	width: 99%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #202124;
+	height: fit-content;
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+	color: white;
+}
+
+#nav-logo {
+	font-size: 2rem;
+	font-family: "Satisfy", cursive;
+	margin-left: 30px;
+}
+
+#nav-items {
+	font-size: 1.3rem;
+	margin-right: 30px;
+}
+
+.nav-item {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+.nav-item:hover {
+	color: #1f6521;
+}
+
 #first-division {
 	background-image: url("./images/map.webp");
 	background-repeat: no-repeat;
